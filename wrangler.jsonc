@@ -51,7 +51,7 @@
   ],
   "r2_buckets": [
     {
-      "binding": "R2",
+      //"binding": "R2",
       // preview_bucket_name: DEPLOY_R2_PREVIEW_BUCKET_NAME (falls back to DEPLOY_R2_BUCKET_NAME)
       // omit DEPLOY_R2_BUCKET_NAME to drop R2 from generated deploy config
       "preview_bucket_name": "sink",
