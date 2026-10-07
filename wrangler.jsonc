@@ -31,21 +31,21 @@
   "analytics_engine_datasets": [
     {
       "binding": "ANALYTICS",
-      "dataset": "sink" // Override with DEPLOY_ANALYTICS_DATASET (default: sink). Keep in sync with NUXT_DATASET at runtime.
+      "dataset": "sink2" // Override with DEPLOY_ANALYTICS_DATASET (default: sink2). Keep in sync with NUXT_DATASET at runtime.
     }
   ],
   "kv_namespaces": [
     {
       "binding": "KV",
       "preview_id": "ef93d42dc4b34969bab404d2e80f8dd3", // Override with DEPLOY_KV_PREVIEW_NAMESPACE_ID (falls back to DEPLOY_KV_NAMESPACE_ID)
-      "id": "24b2f00b56fa4e04b18a5b5eae9f7450" // Override with DEPLOY_KV_NAMESPACE_ID
+      "id": "23b9bda7722841e4b1c7cd204014dd07" // Override with DEPLOY_KV_NAMESPACE_ID
     }
   ],
   "d1_databases": [
     {
       "binding": "DB",
       "database_name": "sink-d1", // Override with DEPLOY_D1_DATABASE_NAME (default: sink)
-      "database_id": "e6b54b54-1334-44aa-9124-e61c724882e5", // Override with DEPLOY_D1_DATABASE_ID (required for CLI deploy)
+      "database_id": "99aa0687-3f85-4fc6-bbdb-ca321f5c03e4", // Override with DEPLOY_D1_DATABASE_ID (required for CLI deploy)
       "migrations_dir": "drizzle"
     }
   ],
